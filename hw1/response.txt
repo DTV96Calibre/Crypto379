@@ -1,0 +1,3 @@
+1. Eve can recover the original message. The original message is 'BUNNY'.
+2. Where c is the modular multiplicative inverse of a, 21, the function for deciphering the message is D(x) = c(x-7) mod 26.
+3.
