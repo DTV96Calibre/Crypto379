@@ -1,3 +1,8 @@
 1. Eve can recover the original message. The original message is 'BUNNY'.
 2. Where c is the modular multiplicative inverse of a, 21, the function for deciphering the message is D(x) = c(x-7) mod 26.
-3.
+3a. If x2 = x1+26/d, then x2 encrypts to (a(x1+26/d) + b) mod 26. This can be simplified by distributing a -> (a*x1+26*a/d + b) mod 26.
+3b. You can't use a where gcd(a, 26) = d>1 because multiple letters may map to the same letter and it will be impossible to decrypt to the original text definitively.
+4.IFYOUCANREADTHISTHANKATEACHER
+... A simple break requires two plaintext characters but bruteforce can be easily used with one character.
+5a. The ciphertext will consist of the same 6 characters repeated many times.
+5b.
